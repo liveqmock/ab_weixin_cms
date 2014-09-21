@@ -68,9 +68,9 @@ label.iPhoneCheckLabelOn span {
     <div id="successLogin"></div>
     <div class="text_success"><img src="plug-in/login/images/loader_green.gif" alt="Please wait" /> <span>登陆成功!请稍后....</span></div>
     <div id="login">
-        <div class="ribbon" style="background-image: url(plug-in/login/images/typelogin.png);"></div>
+        <!-- <div class="ribbon" style="background-image: url(plug-in/login/images/typelogin.png);"></div> -->
         <div class="inner">
-            <div class="logo"><img src="plug-in/weixin/logo/logo_weixin.png" /></div>
+            <div class="logo"><!-- <img src="plug-in/weixin/logo/logo_weixin.png" />  --></div>
             <div class="formLogin">
                 <form name="formLogin" id="formLogin" action="loginController.do?login" check="loginController.do?checkuser" method="post">
                     <input name="userKey" type="hidden" id="userKey" value="D1B5CC2FE46C4CC983C073BCA897935608D926CD32992B5900" />
@@ -111,7 +111,7 @@ label.iPhoneCheckLabelOn span {
     <!--Login div-->
     <div class="clear"></div>
     <div id="versionBar">
-        <div class="copyright">&copy; 版权所有 <span class="tip"><a href="http://www.jeewx.com" title="JEEWX 捷微：敏捷微信开发">捷微 JeeWx</a> (推荐使用IE8+,谷歌浏览器可以获得更快,更安全的页面响应速度)技术支持:<a href="http://www.jeecg.org" title="JEECG 开源社区">JEECG 开源社区</a></span></div>
+        <div class="copyright">&copy; 版权所有 <span class="tip"><a href="http://www.jeewx.com" title="800度">800度</a> (推荐使用IE8+,谷歌浏览器可以获得更快,更安全的页面响应速度)技术支持:<a href="http://www.jeecg.org" title="800度">800度社区</a></span></div>
     </div>
     <!-- Link JScript-->
     <script type="text/javascript" src="plug-in/jquery/jquery-1.8.3.min.js"></script>

@@ -36,13 +36,11 @@ public class WechatController {
 
 		List<WeixinAccountEntity> weixinAccountEntities = weixinAccountService.getList(WeixinAccountEntity.class);
 		for (WeixinAccountEntity account : weixinAccountEntities) {
-			if (SignUtil.checkSignature(account.getAccounttoken(), signature,
-					timestamp, nonce)) {
+			if (SignUtil.checkSignature(account.getAccounttoken(), signature, timestamp, nonce)) {
 				try {
 					response.getWriter().print(echostr);
 					break;
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
